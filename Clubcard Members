@@ -1,15 +1,1 @@
---ADD PEOPLE APPLYING FOR CLUBCARD IN THE LOCAL WHITELIST! DON'T FORGET THE "" and , thank you!
-local Whitelist = {"PremaDeveloper","eimantas314","Rainy_Dartmoor","PremaK2010","danisdaily89563","Tiaworm","ondra789987","applerail_1","xxxprogamerxx23","pie123394"}
-local Tool = game.ReplicatedStorage["Club Card"]
-
-game.Players.PlayerAdded:Connect(function(Player)
-	print("Player joined")
-	Player.CharacterAdded:Connect(function(Character)
-		if table.find(Whitelist,Player.Name) then
-			print("Player IS in the whitelist!")
-			Tool:Clone().Parent = Player.Backpack
-		else
-			print("Player is NOT whitelisted!")
-		end
-	end)
-end)
+game.Workspace.testprotest.Transparency = 1
