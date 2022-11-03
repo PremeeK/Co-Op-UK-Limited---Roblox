@@ -1,6 +1,6 @@
 --ADD PEOPLE APPLYING FOR CLUBCARD IN THE LOCAL WHITELIST! DON'T FORGET THE "" and , thank you!
-local Whitelist = {"PremaDeveloper","eimantas314","Rainy_Dartmoor","PremaK2010","danisdaily89563","Tiaworm","ondra789987"}
-local Tool = game.ReplicatedStorage["CO-OP CLUBCARD"]
+local Whitelist = {"PremaDeveloper","eimantas314","Rainy_Dartmoor","PremaK2010","danisdaily89563","Tiaworm","ondra789987","applerail_1","xxxprogamerxx23","pie123394"}
+local Tool = game.ReplicatedStorage["Club Card"]
 
 game.Players.PlayerAdded:Connect(function(Player)
 	print("Player joined")
