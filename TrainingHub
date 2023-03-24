@@ -1,8 +1,3 @@
-while true do
-	f()
-  print("loadstring triggered")
-	wait(5)
-end
 
 --UPPER SESSION--
 script.Parent.SessionList.TrainingNumberOne.Text = "(SC or SG) training session with (name) starting at (time in UK)." -- edit the "name" and the "time in uk" field
