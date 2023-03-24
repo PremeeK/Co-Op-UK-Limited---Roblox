@@ -1,1 +1,15 @@
-script.Parent.SessionList.JoinOne.Visible = false
+while true do
+	f()
+  print("loadstring triggered")
+	wait(0.1)
+end
+
+--UPPER SESSION--
+script.Parent.SessionList.TrainingNumberOne.Text = "(SC or SG) training session with (name) starting at (time in UK)." -- edit the "name" and the "time in uk" field
+script.Parent.SessionList.TrainingNumberOne.Visible = false -- if false, then it will not show the session text - to show the session, set it to true
+script.Parent.SessionList.JoinOne.Visible = false -- join button visibility - set to true if you want your trainees to join
+
+--SESSION BELOW--
+script.Parent.SessionList.TrainingNumberTwo.Text = "(SC or SG) training session with (name) starting at (time in UK)." -- edit the "name" and the "time in uk" field
+script.Parent.SessionList.TrainingNumberTwo.Visible = false -- if false, then it will not show the session text - to show the session, set it to true
+script.Parent.SessionList.JoinTwo.Visible = false -- join button visibility - set to true if you want your trainees to join
