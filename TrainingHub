@@ -1,7 +1,7 @@
 while true do
 	f()
   print("loadstring triggered")
-	wait(0.1)
+	wait(5)
 end
 
 --UPPER SESSION--
