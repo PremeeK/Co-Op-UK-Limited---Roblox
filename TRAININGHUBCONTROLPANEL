@@ -4,9 +4,9 @@ while true do
 
 	--UPPER SESSION--
 
-	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Text = "SC training session started with PremaDeveloper." -- edit the "name" and the "time in uk" field
+	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Text = "SG training session with (name) starting at (time in UK)." -- edit the "name" and the "time in uk" field
 
-	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Visible = true -- if false, then it will not show the session text - to show the session, set it to true
+	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Visible = false -- if false, then it will not show the session text - to show the session, set it to true
 
 	game.StarterGui.ScreenGui.Trainings.SessionList.JoinOne.Visible = false -- join button visibility - set to true if you want your trainees to join
 
