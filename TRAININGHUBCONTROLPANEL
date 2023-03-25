@@ -1,13 +1,29 @@
 while true do
+	local trainingsavailable = false
 
---UPPER SESSION--
-game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Text = "SC training session with PremaDeveloper starting at 19:00" -- edit the "name" and the "time in uk" field
-game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Visible = true -- if false, then it will not show the session text - to show the session, set it to true
-game.StarterGui.ScreenGui.Trainings.SessionList.JoinOne.Visible = true -- join button visibility - set to true if you want your trainees to join
 
---SESSION BELOW--
-game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberTwo.Text = "(SC or SG) training session with (name) starting at (time in UK)." -- edit the "name" and the "time in uk" field
-game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberTwo.Visible = false -- if false, then it will not show the session text - to show the session, set it to true
-game.StarterGui.ScreenGui.Trainings.SessionList.JoinTwo.Visible = false -- join button visibility - set to true if you want your trainees to join
+	--UPPER SESSION--
+
+	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Text = "(SC or SG) training session with (name) starting at (time in UK)." -- edit the "name" and the "time in uk" field
+
+	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Visible = false -- if false, then it will not show the session text - to show the session, set it to true
+
+	game.StarterGui.ScreenGui.Trainings.SessionList.JoinOne.Visible = false -- join button visibility - set to true if you want your trainees to join
+
+-------------------------
+	
+	--SESSION BELOW--
+
+	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberTwo.Text = "(SC or SG) training session with (name) starting at (time in UK)." -- edit the "name" and the "time in uk" field
+
+	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberTwo.Visible = false -- if false, then it will not show the session text - to show the session, set it to true
+
+	game.StarterGui.ScreenGui.Trainings.SessionList.JoinTwo.Visible = false -- join button visibility - set to true if you want your trainees to join
+
+if game.StarterGui.ScreenGui.Trainings.Requirements.TrainingsAvailable.Value.Value == true and trainingsavailable == false then
+	game.StarterGui.ScreenGui.Trainings.Requirements.TrainingsAvailable.Value.Value = false
+end
+
 wait(5)
+
 end
