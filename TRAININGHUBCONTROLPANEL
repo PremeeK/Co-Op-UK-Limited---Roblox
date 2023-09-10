@@ -21,7 +21,7 @@ while true do
 	game.StarterGui.ScreenGui.Trainings.SessionList.JoinTwo.Visible = false -- join button visibility - set to true if you want your trainees to join
 
 -------------------------
-DON'T EDIT BELOW
+-- DON'T EDIT BELOW
 
 
 if game.StarterGui.ScreenGui.Trainings.Requirements.TrainingsAvailable.Value.Value == true and trainingsavailable == false then
