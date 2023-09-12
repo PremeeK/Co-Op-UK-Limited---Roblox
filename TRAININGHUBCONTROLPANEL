@@ -1,12 +1,12 @@
 while true do
-	local trainingsavailable = true -- Set to true if you host something
+	local trainingsavailable = false -- Set to true if you host something
 
 
 	--UPPER SESSION--
 
-	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Text = "SC training session with PremaDeveloper starting at 14:00 BST." -- edit the "username" and the "time in BST" field
+	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Text = "(SC/SG) training session with (username) starting at (time in BST)." -- edit the "username" and the "time in BST" field
 
-	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Visible = true -- if false, then it will not show the session text - to show the session, set it to true
+	game.StarterGui.ScreenGui.Trainings.SessionList.TrainingNumberOne.Visible = false -- if false, then it will not show the session text - to show the session, set it to true
 
 	game.StarterGui.ScreenGui.Trainings.SessionList.JoinOne.Visible = false -- join button visibility - set to true if you want your trainees to join
 
