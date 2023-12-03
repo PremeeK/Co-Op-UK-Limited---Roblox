@@ -1,5 +1,5 @@
 while true do
-	local trainingsavailable = false -- Set to true if you host something
+	local trainingsavailable = true -- Set to true if you host something
 
 
 	--UPPER SESSION--
